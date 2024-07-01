@@ -11,3 +11,211 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.gravity-navbar a.nav-link {
+  margin-left: 50px;
+  color: white;
+}
+.image-wrapper-banner img {
+  width: 100%;
+  height: auto;
+}
+.banner-sec {
+  position: relative;
+}
+.bulb-image img {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.image-wrapper-banner{
+  height: 500px;
+  background: url(./images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+flex-direction: column;
+}
+.Ban-bulb{
+  object-fit:contain;
+  width:100%;
+}
+.parent-bulb-container{
+  height: 100px;
+  width: 200px;
+  margin-top: 70px;
+}
+.Banner-heading h1 {
+  color: white;
+}
+button.install-app {
+  background-color: #67c6b5;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 0px;
+  font-size: 16px;
+}
+.Banner-button {
+  padding: 40px 0px;
+}
+.card img.card-img-top {
+  height: 50px;
+  width: 50px;
+}
+.card {
+  align-items: center;
+  border: 0px !important;
+}
+.cards-sec {
+  padding: 70px 0px;
+}
+.main-card-wrapper {
+  padding: 10px 60px;
+}
+.card-title{
+  font-size: 22px !important;
+  line-height: 48px !important;
+}
+p.card-text {
+  font-size: 14px;
+  line-height: 25px;
+  min-height: 120px;
+}
+button.go-somewhere.btn.btn-primary {
+  background-color: #27272b;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: 0px;
+}
+.design-section-1 {
+  padding: 60px 150px 60px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  background-color: #f6f6f6;
+}
+.design-section-1 h2 {
+  font-size: 22px;
+  line-height: 48px;
+  display: flex;
+}
+.design-section-1 p {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: left;
+}
+.design-section-2 h2 {
+  font-size: 22px;
+  line-height: 48px;
+  display: flex;
+}
+.design-section-2 p {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+}
+.design-image {
+  padding: 0px 0px 60px 0px;
+}
+.design-image2{
+  padding:60px 0px 0px 0px;
+}
+.design-section-2 {
+  background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 70px 0px 110px 150px;
+}
+.design-content {
+  width: 30%;
+}
+.design-content2 {
+  width: 30%;
+}
+.second-col{
+  padding: 0px !important;
+}
+.first-col{
+  padding: 0px !important;
+}
+.skillset-section {
+  padding: 50px 0px 70px 0px;
+  background: #23282b;
+  color: white;
+}
+.bg-grd{
+  background-image: linear-gradient(
+    90deg,
+    hsl(0deg 0% 96%) 13%,
+    hsl(0deg 0% 96%) 34%,
+    hsl(0deg 0% 96%) 41%,
+    hsl(0deg 0% 96%) 45%,
+    hsl(0deg 0% 96%) 48%,
+    hsl(0deg 0% 96%) 49%,
+    hsl(0deg 0% 95%) 50%,
+    hsl(0deg 0% 95%) 50%,
+    hsl(0deg 0% 95%) 50%,
+    hsl(0deg 0% 95%) 50%,
+    hsl(0deg 0% 95%) 50%,
+    hsl(0deg 0% 95%) 50%,
+    hsl(0deg 0% 94%) 50%,
+    hsl(0deg 0% 94%) 50%,
+    hsl(0deg 0% 94%) 50%,
+    hsl(0deg 0% 94%) 50%,
+    hsl(0deg 0% 94%) 51%,
+    hsl(0deg 0% 94%) 52%,
+    hsl(0deg 0% 93%) 55%,
+    hsl(0deg 0% 93%) 59%,
+    hsl(0deg 0% 93%) 66%,
+    hsl(0deg 0% 93%) 87%
+  );
+}
+.html-line.progress {
+  width: 100%;
+  border-radius: 0px !important;
+  margin: auto;
+  height: 5px;
+}
+.progress-bar {
+  background: #67c6b5 !important;
+}
+/* .html-css {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Photography{
+  display: flex;
+  justify-content: space-evenly; 
+} */
+.Photography-line.progress {
+  border-radius: 0px;
+  width: 100%;
+  margin: auto;
+  height: 5px;
+}
+.skillset-main-div {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 70px 0px 0px 0px
+}
+.html-ccs-parent-div {
+  width: 100%;
+}
+.Photography {
+  width: 100%;
+}
+.html-ccs-content {
+  display: flex;
+  justify-content: space-between;
+}
+.photography-content {
+  display: flex;
+  justify-content: space-between;
+}
