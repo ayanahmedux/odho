@@ -1,7 +1,7 @@
 import React from 'react'
 import Design1 from '../images/design-image.png';
 import Design2 from '../images/design-image-2.png';
-import { Col,Container,Containerfluid, Row } from 'react-bootstrap';
+import { Col,Container, Row } from 'react-bootstrap';
 
 const Designcode = () => {
   return (
